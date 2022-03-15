@@ -10,7 +10,7 @@
         Console.Write("Введите поздравление:");
         congratulationToFriend = Console.ReadLine();
 
-        while (ageFriend-- > 0)
+        for(int i = 0; i < ageFriend; i++)
         {
             Console.WriteLine(congratulationToFriend);
         }
